@@ -1,5 +1,5 @@
 <?php
-    require_once (__DIR__ . "/../model/database.php");
+    require_once (__DIR__ . "/../model/cofig.php");
     
     $connection = new mysqli($host, $username, $password);
     
