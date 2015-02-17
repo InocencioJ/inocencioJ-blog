@@ -9,18 +9,18 @@ class Database{
    private $database;
    public $error;
    
-   public function ___construct($host, $username, $password, $database){
+   public function __construct($host, $username, $password, $database){
        $this->host = $host;
        $this->username = $username;
        $this->password = $password;
        $this->database = $database;
        
        $this->connection = new mysqli($host, $username, $password);
-
+       echo 'built';
         if ($this->connection->connect_error) {
             die("<p>Error: " . $this->connection->connect_error . "</p>");
         }
-
+        
         $exists = $this->connection->select_db($database);
 
         if (!$exists) {
@@ -38,7 +38,7 @@ class Database{
        $this->connection = new mysqli($this->host, $this->username, $this->password, $this->database);
        
        if($this->connection->connect_error){
-           die("<p>error: " . $this->connection->connect_erroor . "</p>");
+           die("<p>error: " . $this->connection->connect_error . "</p>");
        }
     }
    
@@ -50,7 +50,6 @@ class Database{
    
    public function query($string) {
        $this->openConnection();
-       
        
        $query = $this->connection->query($string);
        
