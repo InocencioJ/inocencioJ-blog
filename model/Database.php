@@ -16,7 +16,6 @@ class Database{
        $this->database = $database;
        
        $this->connection = new mysqli($host, $username, $password);
-       echo 'built';
         if ($this->connection->connect_error) {
             die("<p>Error: " . $this->connection->connect_error . "</p>");
         }
