@@ -1,0 +1,5 @@
+body{/*changes the background to a picture background*/
+    background-image: url(images/wallpaper0002.png);
+    background-size: cover;
+}  
+
