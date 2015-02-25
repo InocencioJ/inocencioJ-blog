@@ -15,5 +15,10 @@ and open the template in the editor.
         <a href="index.php">index</a>
         <a href=""></a>
         <a href="login.php">login NOW!!!</a>
-        
+        <a class="list-group-item active"><!--this new code allows me to list words in any pattern -->
+                <h1>pages</h1>
+            </a>
+            <a href="index.php" class="list-group-item">index</a>   
+            <a href="login.php" class="list-group-item">login</a>
+            <a href="index.html" class="list-group-item">.</a>
   
