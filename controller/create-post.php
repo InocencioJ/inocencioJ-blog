@@ -12,4 +12,8 @@
     else {
         echo "<p>" . $_SESSION["connection"]->error . "</p>";
     }
-    
+?>
+
+<div>
+    <a href="../index.php">home</a>
+</div>

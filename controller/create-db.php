@@ -9,7 +9,7 @@ $query = $_SESSION["connection"]->query("CREATE TABLE posts ("
         . "PRIMARY KEY (id))");
 
 if ($query) {
-    echo "<p>Succesfully create table: posts</p>";
+   
 } else {
     echo "<p>" . $_SESSION["connection"]->error . "</p>";
 }
@@ -23,7 +23,7 @@ $query = $_SESSION["connection"]->query("CREATE TABLE users  ("
         . "PRIMARY KEY (id))");
     
 if($query) {
-    echo "<p>Successfully created table: users</p>";
+    
 }
 else {
     echo "<p>" . $_SESSION["connection"]->error . "</p>";

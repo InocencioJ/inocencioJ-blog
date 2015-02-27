@@ -1,24 +1,34 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
+<?php
+
+?>
 <html>
     <head>
         <meta charset="UTF-8">
-         <link type="text/css" rel="stylesheet" href="css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> 
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+        <link type="text/css" rel="stylesheet" href="css/bootstrap-theme.css">
+        <link type="text/css" rel="stylesheet" href="css/bootstrap.css">
+        <link type="text/css" rel="stylesheet" href="css/style.css">
         <title></title>
     </head>
-    <body>
-        <div><h1>welcome to my blog</h1> </div
-        <a href="index.php">index</a>
-        <a href=""></a>
-        <a href="login.php">login NOW!!!</a>
-        <a class="list-group-item active"><!--this new code allows me to list words in any pattern -->
-                <h1>pages</h1>
-            </a>
-            <a href="index.php" class="list-group-item">index</a>   
-            <a href="login.php" class="list-group-item">login</a>
-            <a href="index.html" class="list-group-item">.</a>
-  
+    <style>
+
+    </style>
+    <body class="white">
+        <div><h1 class="border col-xs-12 center-text">Joshua's blog</h1> </div>
+        <div></div>
+        <div>
+            <ul>
+                <!--these are links to specific places in my project-->
+                <li><a href="index.php">Home</a></li>
+                <li><a href="login.php">Login</a></li>
+                <li><a href="register.php">Register</a></li>
+                <li><a href="/../inocencioJ-blog//controller/logout-user.php">Logout</a></li>
+            </ul>
+            <!--code is just for fun-->
+            <button onclick="alert('Hello world!')">Click just for fun...</button>
+        </div>
+    </body>

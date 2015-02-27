@@ -1,5 +1,41 @@
-body{/*changes the background to a picture background*/
-    background-image: url(images/wallpaper0002.png);
-    background-size: cover;
-}  
+//makes the buttons on my page have 0 margins and padding
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+//makes the <li> code float to the left
+li {
+    float: left;
+}
+//every <a> function show a block
+a:link, a:visited {
+   display: block white;
+   width: 120px;
+   text-align: center;
+   color:black;
+}
+a:hover, a:active{
+    background-color: white;
+}
 
+.border{
+    border:black solid 4px;
+}
+
+.center-text{
+    text-align:center;
+}
+
+body{
+ background-image:url(images/minimal0004.png);
+ background-size:cover;
+}
+
+.white{
+    color:black;
+}
+
+.coustom{
+    
+}

@@ -27,4 +27,9 @@ if($query->num_rows == 1) {
 else {
     echo "<p>Invalid username and password</p>";
 }
-
+?>
+<body>
+<div>
+<a href="/../inocencioJ-blog/index.php">Home</a>
+</div>
+</body>
